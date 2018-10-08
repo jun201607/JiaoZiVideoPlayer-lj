@@ -1,0 +1,307 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/p_root_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@color/white"-->
+    <!--android:orientation="vertical"-->
+    <!--tools:context="com.qdgdcm.fsfedu.fsedu.view.parent.activity.PMicroClassDetailActivity">-->
+
+    <!--<com.zhy.autolayout.AutoRelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="426px"-->
+        <!--android:background="@color/black">-->
+
+        <!--<com.qdgdcm.fsfedu.fsedu.view.support.FansiJzvd-->
+            <!--android:id="@+id/jzvd_p_fz"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="426px"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_marginStart="0dp"-->
+            <!--android:layout_marginTop="0dp" />-->
+
+        <!--<com.zhy.autolayout.AutoLinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<com.zhy.autolayout.AutoRelativeLayout-->
+                <!--android:id="@+id/p_base_view"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="90px"-->
+                <!--android:layout_alignParentTop="true">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/iv_p_top_back"-->
+                    <!--android:layout_width="90px"-->
+                    <!--android:layout_height="90px"-->
+                    <!--android:scaleType="center"-->
+                    <!--android:src="@drawable/ic_common_white_back" />-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/iv_p_share"-->
+                    <!--android:layout_width="90px"-->
+                    <!--android:layout_height="90px"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:scaleType="center"-->
+                    <!--android:src="@drawable/p_ic_top_white_share" />-->
+            <!--</com.zhy.autolayout.AutoRelativeLayout>-->
+
+
+            <!--<com.zhy.autolayout.AutoLinearLayout-->
+                <!--android:id="@+id/all_p_class_view"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:orientation="vertical"-->
+                <!--android:visibility="gone">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:layout_marginTop="90px"-->
+                    <!--android:text="试看结束，观看完整版请购买"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:textSize="@dimen/p_margin_30px" />-->
+
+                <!--<com.zhy.autolayout.AutoLinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:layout_marginTop="50px">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_p_review"-->
+                        <!--android:layout_width="194px"-->
+                        <!--android:layout_height="60px"-->
+                        <!--android:background="@drawable/shape_p_theme_color_annulus_15dp"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="重新试看"-->
+                        <!--android:textColor="@color/p_theme_color"-->
+                        <!--android:textSize="28px" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_p_buy_now"-->
+                        <!--android:layout_width="194px"-->
+                        <!--android:layout_height="60px"-->
+                        <!--android:layout_marginStart="56px"-->
+                        <!--android:background="@drawable/shape_p_theme_color_bg_15dp"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="立即购买"-->
+                        <!--android:textColor="@color/white"-->
+                        <!--android:textSize="28px" />-->
+
+                <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+                <!--<com.zhy.autolayout.AutoLinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40px"-->
+                    <!--android:layout_marginTop="50px"-->
+                    <!--android:gravity="center_horizontal"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="已购买,请"-->
+                        <!--android:textColor="@color/p_theme_color"-->
+                        <!--android:textSize="20px" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_p_login"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="登陆"-->
+                        <!--android:textColor="@color/p_theme_color"-->
+                        <!--android:textSize="20px" />-->
+                <!--</com.zhy.autolayout.AutoLinearLayout>-->
+            <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+
+        <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+
+    <!--</com.zhy.autolayout.AutoRelativeLayout>-->
+
+    <!--<android.support.v4.widget.NestedScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0px"-->
+        <!--android:layout_weight="1">-->
+
+        <!--<com.zhy.autolayout.AutoLinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:focusable="true"-->
+            <!--android:focusableInTouchMode="true"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<com.zhy.autolayout.AutoLinearLayout-->
+                <!--style="@style/macthwrap"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<com.zhy.autolayout.AutoRelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="130px">-->
+
+                    <!--<View-->
+                        <!--android:id="@+id/view_p_shu"-->
+                        <!--android:layout_width="6px"-->
+                        <!--android:layout_height="32px"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginStart="30px"-->
+                        <!--android:background="@color/p_theme_color" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_P_title"-->
+                        <!--style="@style/warpwrap"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginStart="20px"-->
+                        <!--android:layout_toRightOf="@+id/view_p_shu"-->
+                        <!--android:text="C学C乐右脑开发课程"-->
+                        <!--android:textColor="@color/black"-->
+                        <!--android:textSize="36px" />-->
+
+                    <!--<View-->
+                        <!--android:layout_width="2px"-->
+                        <!--android:layout_height="61px"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_toLeftOf="@+id/tv_p_collection"-->
+                        <!--android:background="@color/color_eeeeee" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tv_p_collection"-->
+                        <!--style="@style/warpwrap"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginStart="30px"-->
+                        <!--android:layout_marginEnd="30px"-->
+                        <!--android:drawableTop="@drawable/ic_p_class_nocollection"-->
+                        <!--android:drawablePadding="7px"-->
+                        <!--android:text="收藏"-->
+                        <!--android:textColor="@color/color_666666"-->
+                        <!--android:textSize="24px" />-->
+                <!--</com.zhy.autolayout.AutoRelativeLayout>-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="2px"-->
+                    <!--android:background="@color/color_eeeeee" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_p_hui"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="96px"-->
+                    <!--android:drawableLeft="@drawable/ic_p_class_hui"-->
+                    <!--android:drawableRight="@drawable/ic_common_right_gray_skip"-->
+                    <!--android:drawablePadding="17px"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:paddingStart="30px"-->
+                    <!--android:paddingEnd="30px"-->
+                    <!--android:text="套餐购买优惠"-->
+                    <!--android:textColor="@color/color_ee4c49"-->
+                    <!--android:textSize="28px" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="20px"-->
+                    <!--android:background="@color/color_f5f5f5" />-->
+
+                <!--<TextView-->
+                    <!--style="@style/warpwrap"-->
+                    <!--android:layout_margin="30px"-->
+                    <!--android:text="专家简介"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="36px"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<com.zhy.autolayout.AutoRelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginStart="30px">-->
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/iv_p_head"-->
+                        <!--android:layout_width="122px"-->
+                        <!--android:layout_height="122px"-->
+                        <!--android:background="@color/black"-->
+                        <!--android:scaleType="centerCrop" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/iv_p_name"-->
+                        <!--style="@style/warpwrap"-->
+                        <!--android:layout_marginStart="28px"-->
+                        <!--android:layout_marginTop="26px"-->
+                        <!--android:layout_toRightOf="@+id/iv_p_head"-->
+                        <!--android:text="讲师：王丽丽"-->
+                        <!--android:textColor="@color/black"-->
+                        <!--android:textSize="30px" />-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/iv_p_position"-->
+                        <!--style="@style/warpwrap"-->
+                        <!--android:layout_below="@+id/iv_p_name"-->
+                        <!--android:layout_marginStart="28px"-->
+                        <!--android:layout_toRightOf="@+id/iv_p_head"-->
+                        <!--android:text="凡思教育奇偶奥小"-->
+                        <!--android:textColor="@color/p_small_title"-->
+                        <!--android:textSize="22px" />-->
+                <!--</com.zhy.autolayout.AutoRelativeLayout>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_p_introduce"-->
+                    <!--style="@style/warpwrap"-->
+                    <!--android:layout_margin="30px"-->
+                    <!--android:textColor="@color/p_small_title"-->
+                    <!--android:textSize="28px" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="2px"-->
+                    <!--android:background="@color/color_eeeeee" />-->
+
+                <!--<TextView-->
+                    <!--style="@style/warpwrap"-->
+                    <!--android:layout_margin="30px"-->
+                    <!--android:text="课程简介"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="36px"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_p_kcjj"-->
+                    <!--style="@style/warpwrap"-->
+                    <!--android:layout_margin="30px"-->
+                    <!--android:textColor="@color/p_small_title"-->
+                    <!--android:textSize="28px" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="20px"-->
+                    <!--android:background="@color/color_f5f5f5" />-->
+
+                <!--<TextView-->
+                    <!--style="@style/warpwrap"-->
+                    <!--android:layout_margin="30px"-->
+                    <!--android:text="相关课程推荐"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="36px"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<android.support.v7.widget.RecyclerView-->
+                    <!--android:id="@+id/rv_p_class"-->
+                    <!--style="@style/macthwrap" />-->
+            <!--</com.zhy.autolayout.AutoLinearLayout>-->
+        <!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+    <!--</android.support.v4.widget.NestedScrollView>-->
+
+    <!--<include layout="@layout/include_p_buy" />-->
+
+<!--</com.zhy.autolayout.AutoLinearLayout>-->
